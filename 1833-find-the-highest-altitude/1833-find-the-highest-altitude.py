@@ -9,14 +9,14 @@ class Solution:
         #     ans.append(new)
         # return max_sum
 
-        # # Space Optimized TC: O(N), SC: O(1)
+        ## Space Optimized TC: O(N), SC: O(1)
         # max_sum = max(0,gain[0])
         # for i in range(1, len(gain)):
         #     gain[i] = gain[i] + gain[i-1]
         #     max_sum = max(gain[i], max_sum)
         # return max_sum
 
-        ## Prefix Sum
+        ## Approach 2: Prefix Sum TC: O(N), SC:(1)
         max_sum = 0
         curr_sum = 0
         for i in range(len(gain)):
