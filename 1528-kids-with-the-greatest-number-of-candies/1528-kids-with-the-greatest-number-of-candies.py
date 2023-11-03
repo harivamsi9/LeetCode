@@ -17,16 +17,18 @@ class Solution:
         ## Loop once, and get the max from the candies list.
         ## In 2nd loop, check if candies[i]+extraCandies >= max
         ## and update
-        # max_c = max(candies)
-        # for i in range(len(candies)):
-        #     if candies[i] + extraCandies >= max_c:
-        #         candies[i] = True
-        #     else:
-        #         candies[i] = False
-        # return candies
+        max_c = max(candies)
+        for i in range(len(candies)):
+            if candies[i] + extraCandies >= max_c:
+                candies[i] = True
+            else:
+                candies[i] = False
+        return candies
 
-        check=max(candies)-extraCandies
-        return [k>=check for k in candies]
+
+        # # Got the below from LC submissions
+        # check=max(candies)-extraCandies
+        # return [k>=check for k in candies]
 
 
 
