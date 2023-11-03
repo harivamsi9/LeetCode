@@ -9,7 +9,7 @@ class Solution:
         #     ans.append(new)
         # return max_sum
 
-        # Space Optimized
+        # Space Optimized TC: O(N), SC: O(1)
         max_sum = max(0,gain[0])
         for i in range(1, len(gain)):
             gain[i] = gain[i] + gain[i-1]
