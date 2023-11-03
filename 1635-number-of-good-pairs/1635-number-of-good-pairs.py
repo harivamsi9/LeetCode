@@ -8,7 +8,7 @@ class Solution:
         #             count += 1
         # return count
 
-        # optimized 
+        # # optimized TC: O(2N) SC: O(N)
         counter = {}
         for i in nums:
             if i in counter:
@@ -20,6 +20,8 @@ class Solution:
             n = counter[i]
             count += n*(n-1)//2
         return count
+
+
 
 
                     
