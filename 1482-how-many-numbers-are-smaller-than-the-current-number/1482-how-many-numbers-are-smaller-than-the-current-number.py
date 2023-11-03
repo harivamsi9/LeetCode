@@ -10,7 +10,7 @@ class Solution:
         #     ans.append(count)
         # return ans
 
-        ## Approach 1: Time Optimization
+        ## Approach 1: Time Optimization TC: O(2N) SC: O(2N)
         # sort the array
         ans = nums.copy()
         # ans = list(set(ans))
