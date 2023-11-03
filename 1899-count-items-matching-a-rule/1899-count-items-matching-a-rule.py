@@ -1,9 +1,6 @@
 class Solution:
     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
         # Brute Force
-        first = "type"
-        second = "color"
-        third = "name"
         k = 0
         count = 0
         if ruleKey[0] == 'c':
