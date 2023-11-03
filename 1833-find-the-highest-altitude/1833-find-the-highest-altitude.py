@@ -17,10 +17,8 @@ class Solution:
         # return max_sum
 
         ## Prefix Sum
-
         max_sum = 0
         curr_sum = 0
-
         for i in range(len(gain)):
             curr_sum += gain[i]
             max_sum = max(curr_sum, max_sum)
