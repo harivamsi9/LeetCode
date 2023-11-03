@@ -19,8 +19,6 @@ class Solution:
         for j in range(0,len(ans)):
             if ans[j] not in dict_1:
                 dict_1[ans[j]] = j 
-        print(dict_1)
-
         for i in range(len(nums)):
             nums[i] = dict_1[nums[i]]
         return nums
