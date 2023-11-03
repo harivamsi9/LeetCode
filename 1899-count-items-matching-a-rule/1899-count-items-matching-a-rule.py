@@ -6,14 +6,10 @@ class Solution:
         third = "name"
         k = 0
         count = 0
-        if ruleKey == first:
-            # pass
-            k = 0
-
-        elif ruleKey == second:
-            # pass
+        if ruleKey[0] == 'c':
+            # color
             k = 1
-        else:
+        elif ruleKey[0]=='n':
             # name
             k =2
             
