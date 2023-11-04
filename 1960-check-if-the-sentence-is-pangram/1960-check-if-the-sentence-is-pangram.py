@@ -7,10 +7,12 @@ class Solution:
         #         return False
         # return True
 
-        # Optimized Solution TC: O(N) SC: O(N)
-        dict_1 = {}
-        for s in sentence:
-            dict_1[s] = 1
-        if len(dict_1.keys()) != 26:
-            return False
-        return True
+        # # Optimized Solution TC: O(N) SC: O(N)
+        # dict_1 = {}
+        # for s in sentence:
+        #     dict_1[s] = 1
+        # if len(dict_1.keys()) != 26:
+        #     return False
+        # return True
+
+        return len(set(sentence)) == 26
