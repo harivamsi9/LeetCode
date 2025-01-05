@@ -26,11 +26,6 @@ class Solution:
             newChar_ord = ord('a') + ((ord(s[i]) - ord('a') + ps[i]) % 26)
             newChar = chr(newChar_ord)
             ans += newChar
-
-        # for i in range(len(s)):
-            # newChar_ord = ord('a') + ((ord(s[i]) - ord('a') + ps[i]) % 26)
-            # newChar = chr(newChar_ord)
-            # ans += newChar
         return ans
 
 
