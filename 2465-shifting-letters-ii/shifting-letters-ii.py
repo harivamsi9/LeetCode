@@ -1,7 +1,8 @@
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
-        ## Difference Array Approch
+        ## Difference Array Approach
         ## Time Complexity - O(N)
+        ## Space Complexity - O(N)
         
         diffArr = [0]*len(s)
 
