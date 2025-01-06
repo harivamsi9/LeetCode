@@ -2,7 +2,7 @@ class Solution:
     def minOperations(self, arr: str) -> List[int]:
         arr = [int(i) for i in arr]
 
-        ps = [0]*len(arr)
+        ps = [0] * len(arr)
         ss = [0] * len(arr)
         ans = [0] *len(arr)
 
