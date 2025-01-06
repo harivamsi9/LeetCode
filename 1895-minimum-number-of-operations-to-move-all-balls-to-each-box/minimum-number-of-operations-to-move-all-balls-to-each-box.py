@@ -1,5 +1,7 @@
 class Solution:
     def minOperations(self, arr: str) -> List[int]:
+        # Prefix Sum Method 
+        # TC - O(n), SC - O(n)
         arr = [int(i) for i in arr]
 
         ps = [0] * len(arr)
