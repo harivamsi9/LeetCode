@@ -11,14 +11,12 @@ class Solution:
         for i in range(1, len(arr)):
             ps[i] += ps[i-1] + c
             c += arr[i]
-        print(ps)
 
         c = arr[-1]
         ss[-1] = 0
         for i in range(len(arr)-1 -1,-1,-1):
             ss[i] += ss[i+1] + c
             c += arr[i]
-        print(ss)
 
         for i in range(len(arr)):
             ans[i] = ps[i] + ss[i]
