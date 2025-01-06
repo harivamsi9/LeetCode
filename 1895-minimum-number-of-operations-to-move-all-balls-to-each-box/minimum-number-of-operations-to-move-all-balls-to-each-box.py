@@ -1,3 +1,13 @@
+# Approach:
+# 1. Convert the input string to a list of integers for easier manipulation.
+# 2. Compute prefix sums (ps):
+#    - For each index, calculate the cumulative sum of operations required to move all '1's from the start to that index.
+# 3. Compute suffix sums (ss):
+#    - For each index, calculate the cumulative sum of operations required to move all '1's from the end to that index.
+# 4. Calculate the final answer:
+#    - For each index, the result is the sum of prefix and suffix contributions at that index (ps[i] + ss[i]).
+# 5. Return the resulting list of operations for each position.
+
 class Solution:
     def minOperations(self, arr: str) -> List[int]:
         # Prefix Sum Method 
