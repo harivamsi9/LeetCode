@@ -7,7 +7,6 @@ class Solution:
             else:
                 while v >2: v -= 2
                 ans += v
-
         return ans
 
         
