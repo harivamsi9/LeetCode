@@ -17,7 +17,7 @@ class Solution:
                     heapq.heappush(PQ, ( grid[i][j], (i , j) ))
                     visited[i][j] = 1
         
-        print(PQ)
+        # print(PQ)
         # heapq.heapify(PQ)
         minBoundaryHeight = 0
 
