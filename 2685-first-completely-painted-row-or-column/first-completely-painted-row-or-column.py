@@ -18,10 +18,11 @@ class Solution:
 
             # Decrement the counts for the corresponding row and column
             row_counts[i] -= 1
+            if row_counts[i] == 0: return idx
             col_counts[j] -= 1
 
             # Check if any row or column is completely zero
-            if row_counts[i] == 0 or col_counts[j] == 0:
+            if col_counts[j] == 0:
                 return idx
 
         return -1  # Return -1 if no row or column is fully completed
