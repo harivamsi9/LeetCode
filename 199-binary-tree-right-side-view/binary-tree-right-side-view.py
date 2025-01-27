@@ -14,8 +14,7 @@ class Solution:
             for i in range(levelSize): # 0
                 node = queue.pop(0)
                 if i == levelSize - 1:
-                    if node:
-                        ans.append(node.val)
+                    ans.append(node.val)
                 if node.left: queue.append(node.left)
                 if node.right: queue.append(node.right)
                 
