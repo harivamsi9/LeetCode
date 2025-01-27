@@ -12,7 +12,8 @@ class Solution:
                 if len(stack) > 0 and stack[-1] == d[i]:
                     stack.pop()
                 else:
-                    stack.append(i)
+                    # stack.append(i)
+                    return False
             else:
                 stack.append(i)
         if stack: return False
