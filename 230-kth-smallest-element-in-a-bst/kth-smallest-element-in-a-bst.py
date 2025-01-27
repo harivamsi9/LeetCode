@@ -8,10 +8,10 @@ class Solution:
     count = 0
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         def dfs(root, count, k):
-            if not root: return -1
+            if not root: return None
             # in-order
             left = dfs(root.left, count, k)
-            if left!= None and left >= 0:
+            if left!= None:
                 return left
 
             self.count += 1
@@ -20,7 +20,7 @@ class Solution:
                 return root.val
 
             right = dfs(root.right, count, k)
-            if right != None and right >= 0: return right
+            if right != None: return right
 
 
         return dfs(root, count, k)
