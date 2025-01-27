@@ -20,7 +20,7 @@ class Solution:
             if left and right:
                 return root
             if left: return left
-            if right: return right
+            return right
 
         return dfs(root, p, q)
         
