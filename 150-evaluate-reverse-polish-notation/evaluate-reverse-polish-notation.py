@@ -18,6 +18,6 @@ class Solution:
                         stack.append(int(leftOp/rightOp))
                     else:
                         stack.append(leftOp*rightOp)
-        print(stack)
+        # print(stack)
         return stack.pop()
         
