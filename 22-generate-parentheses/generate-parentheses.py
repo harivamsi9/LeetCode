@@ -5,6 +5,7 @@ class Solution:
         def backtrack(ds, openB, closeB):
             if openB == closeB == n:
                 ans.append(''.join(ds))
+                return
             
             if openB < n:
                 # call '('
