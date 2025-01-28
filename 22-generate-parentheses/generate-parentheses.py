@@ -16,6 +16,7 @@ class Solution:
             if closeB < openB and closeB < n:
                 ds.append(')')
                 backtrack(ds.copy(), openB, closeB + 1)
+                ds.pop()
         backtrack([],0,0)
         return ans
 
