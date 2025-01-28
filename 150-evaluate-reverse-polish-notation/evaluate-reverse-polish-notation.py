@@ -9,7 +9,7 @@ class Solution:
                 if len(stack) > 1:
                     rightOp = stack.pop()
                     leftOp = stack.pop()
-                    print(f"left: {leftOp} {token} right: {rightOp}")
+                    # print(f"left: {leftOp} {token} right: {rightOp}")
                     if token == "+":
                         stack.append(rightOp+leftOp)
                     elif token == "-":
