@@ -1,39 +1,30 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         first_col = []
-
-        for i in range(len(matrix)):
-            for j in range(len(matrix[0])):
-                if j ==0:
-                    first_col.append(matrix[i][j])
         
-        start= 0
-        end= len(first_col) -1
-        while start <= end:
-            mid = start + (end - start) // 2
-            if target > first_col[mid]:
-                start = mid + 1
-            elif target < first_col[mid]:
-                end = mid - 1
+        top = 0
+        bot = len(matrix) -1
+
+        while top <= bot:
+            mid = top + (bot - top) // 2
+            if target > matrix[mid][-1]:
+                top = mid + 1
+            elif target < matrix[mid][0]:
+                bot = mid - 1
             else:
-                return True
+                break
         
-        possible_row = end
-
-        row = []
-        for i in range(len(matrix)):
-            # for j in range(len(matrix[0])):
-            if i == end:
-                row.extend(matrix[i])
-
+        possible_row = top + (bot - top) // 2
+        
+        # perform the BS on this row in the 2d Matrix
         start= 0
-        end= len(row) - 1
-        print(row)
+        end= len(matrix[0]) - 1
+
         while start <= end:
             mid = start + (end - start) // 2
-            if target > row[mid]:
+            if target > matrix[possible_row][mid]:
                 start = mid + 1
-            elif target < row[mid]:
+            elif target < matrix[possible_row][mid]:
                 end = mid - 1
             else:
                 return True
