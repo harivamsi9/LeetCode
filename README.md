@@ -56,10 +56,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/harivamsi9/LeetCode/tree/master/0112-path-sum) |
+| [0684-redundant-connection](https://github.com/harivamsi9/LeetCode/tree/master/0684-redundant-connection) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/harivamsi9/LeetCode/tree/master/0112-path-sum) |
+| [0684-redundant-connection](https://github.com/harivamsi9/LeetCode/tree/master/0684-redundant-connection) |
 ## Binary Tree
 |  |
 | ------- |
@@ -76,4 +78,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harivamsi9/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Union Find
+|  |
+| ------- |
+| [0684-redundant-connection](https://github.com/harivamsi9/LeetCode/tree/master/0684-redundant-connection) |
+## Graph
+|  |
+| ------- |
+| [0684-redundant-connection](https://github.com/harivamsi9/LeetCode/tree/master/0684-redundant-connection) |
 <!---LeetCode Topics End-->
