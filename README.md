@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/harivamsi9/LeetCode/tree/master/0049-group-anagrams) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/harivamsi9/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1524-string-matching-in-an-array](https://github.com/harivamsi9/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/harivamsi9/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/harivamsi9/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/harivamsi9/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/harivamsi9/LeetCode/tree/master/0112-path-sum) |
 ## Depth-First Search
 |  |
@@ -67,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/harivamsi9/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/harivamsi9/LeetCode/tree/master/0112-path-sum) |
 ## Sorting
 |  |
@@ -93,4 +96,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1558-course-schedule-iv](https://github.com/harivamsi9/LeetCode/tree/master/1558-course-schedule-iv) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/harivamsi9/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/harivamsi9/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
