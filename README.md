@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2292-counting-words-with-a-given-prefix](https://github.com/harivamsi9/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/harivamsi9/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2685-first-completely-painted-row-or-column](https://github.com/harivamsi9/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/harivamsi9/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 ## String
 |  |
 | ------- |
