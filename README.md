@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/harivamsi9/LeetCode/tree/master/0049-group-anagrams) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/harivamsi9/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0518-coin-change-ii](https://github.com/harivamsi9/LeetCode/tree/master/0518-coin-change-ii) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/harivamsi9/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1524-string-matching-in-an-array](https://github.com/harivamsi9/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/harivamsi9/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/harivamsi9/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harivamsi9/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/harivamsi9/LeetCode/tree/master/0049-group-anagrams) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/harivamsi9/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/harivamsi9/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2685-first-completely-painted-row-or-column](https://github.com/harivamsi9/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 ## Matrix
